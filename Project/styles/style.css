@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 0;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+    margin: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 72px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*Шапка*/
+.header {
+    padding: 10px 0;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.header__list{
+    display: flex;
+    gap: 24px;
+}
+
+.header__nav{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header .btn{
+    background: #5221E6;
+    color: #fff;
+    width: 109px;
+    height: 88px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.header .btn:hover{
+    background: #069af0;
+    transform: scale(1.2);
+}
