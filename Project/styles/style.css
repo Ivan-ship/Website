@@ -236,3 +236,49 @@ h1, h2, h3, h4, h5{
 .is-red{
     color: #E95D90;
 }
+
+/*О блоге*/
+.philosophy{
+    background-color: #FFF3E4;
+    color: black;
+}
+
+.philosophy .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding-right: 0;
+}
+
+.philosophy .text{
+    width: 50%;
+}
+
+.philosophy__image{
+    width: calc(50% + 10px);
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-right: -15px;
+}
+
+.text__title{
+    margin-top: 120px;
+    margin-left: 72px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.text__subtitle{
+    margin-top: 24px;
+    margin-left: 72px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text__subtitle-subtitle{
+    margin-top: 134px;
+    margin-left: 72px;
+    text-decoration: underline;
+    text-decoration-color: #8491A0;
+}
