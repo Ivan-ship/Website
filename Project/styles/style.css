@@ -114,6 +114,16 @@ h1, h2, h3, h4, h5{
     align-items: center;
 }
 
+.wellcome::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    border-bottom: 2px dashed #8491A0;
+}
+
 .wellcome__background{
     position: absolute;
     top: 0;
@@ -168,3 +178,61 @@ h1, h2, h3, h4, h5{
     margin-top: 32px;
 }
 
+/*О сайте*/
+
+.aboutSite{
+    padding: 175px 0;
+}
+
+.aboutSite__text-small{
+    font-weight: 700;
+    font-size: 16px;
+    color: #8491A0;
+    margin-top: 120px;
+    margin-left: 72px;
+    padding-bottom: 8px;
+}
+
+.aboutSite__text-title{
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 72px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 72px;
+    gap: 77px;
+}
+
+.description__number{
+    font-weight: 400;
+    font-size: 117px;
+    color: #8491A0;
+}
+
+.description__title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.description__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8491A0;
+}
+
+.is-green{
+    color: #3CC74E;
+}
+
+.is-blue{
+    color: #609BFF;
+}
+
+.is-red{
+    color: #E95D90;
+}
