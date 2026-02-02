@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5{
 
 /*Шапка*/
 .header {
+    position: relative;
     padding: 10px 0;
 }
 
@@ -56,12 +57,30 @@ h1, h2, h3, h4, h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 32px;
+    padding: 32px 72px 32px 72px;
+}
+
+.header__text{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.link__container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .header__list{
     display: flex;
     gap: 24px;
+    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
 .header__nav{
@@ -83,3 +102,69 @@ h1, h2, h3, h4, h5{
     background: #069af0;
     transform: scale(1.2);
 }
+
+
+
+/*Главная секция*/
+.wellcome{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.wellcome__background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background: #181823;
+    z-index: 0;
+}
+
+.wellcome__inner{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.wellcome__image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    margin-top: 80px;
+    height: auto;
+    z-index: 1;
+}
+
+.wellcome__text{
+    flex: 0 0 60%;
+    margin-left: 650px;
+    z-index: 1;
+}
+
+.tetxt__title{
+    font-weight: 700;
+    font-size: 78px;
+    margin-bottom: 16px;
+}
+
+.location{
+    font-weight: 700;
+    font-size: 78px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+
+.text__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
