@@ -247,7 +247,8 @@ h1, h2, h3, h4, h5{
     display: flex;
     align-items: center;
     justify-content: space-between;
-     padding-right: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .philosophy .text{
@@ -255,11 +256,11 @@ h1, h2, h3, h4, h5{
 }
 
 .philosophy__image{
-    width: calc(50% + 10px);
+    width: 50%;
     height: auto;
     object-fit: cover;
     display: block;
-    margin-right: -15px;
+    margin: 0;
 }
 
 .text__title{
