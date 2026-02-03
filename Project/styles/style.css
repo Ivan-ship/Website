@@ -241,45 +241,63 @@ h1, h2, h3, h4, h5{
 .philosophy{
     background-color: #FFF3E4;
     color: black;
+    overflow: hidden;
 }
 
-.philosophy .container{
+.philosophy__inner{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-right: 0;
-    margin-right: 0;
 }
 
-.philosophy .text{
-    width: 50%;
+.philosophy__container{
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+}
+
+.philosophy__image-wrapper{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.philosophy__content{
+    max-width: 600px;
 }
 
 .philosophy__image{
-    width: 50%;
+    width: 100%;
+    max-width: 720px;
     height: auto;
     object-fit: cover;
-    display: block;
-    margin: 0;
 }
 
-.text__title{
+.philosophy__image{
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.philosophy__title{
     margin-top: 120px;
     margin-left: 72px;
     font-weight: 700;
     font-size: 55px;
 }
 
-.text__subtitle{
+.philosophy__text{
     margin-top: 24px;
     margin-left: 72px;
     font-weight: 400;
     font-size: 18px;
 }
 
-.text__subtitle-subtitle{
+.philosophy__link{
     margin-top: 134px;
     margin-left: 72px;
+    font-weight: 400;
+    font-size: 16px;
     text-decoration: underline;
     text-decoration-color: #8491A0;
 }
