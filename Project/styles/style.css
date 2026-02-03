@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 72px;
+    padding: 0 20px;
 }
 
 .btn{
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5{
     position: absolute;
     top: 0;
     right: 0;
-    width: 70%;
+    width: 65%;
     height: 100%;
     background: #181823;
     z-index: 0;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5{
 
 .wellcome__inner{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     width: 100%;
@@ -144,19 +144,14 @@ h1, h2, h3, h4, h5{
 
 
 .wellcome__image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50vw;
+    width: 45%;
     margin-top: 80px;
-    height: auto;
-    z-index: 1;
 }
 
 .wellcome__text{
-    flex: 0 0 60%;
-    margin-left: 650px;
-    z-index: 1;
+    flex: 0 0 50%;
+    z-index: 2;
+    margin-left: -69px;
 }
 
 .tetxt__title{
@@ -167,7 +162,7 @@ h1, h2, h3, h4, h5{
 
 .location{
     font-weight: 700;
-    font-size: 78px;
+    font-size: clamp(32px, 6vw, 78px);
     opacity: 0.7;
     margin-bottom: 16px;
 }
