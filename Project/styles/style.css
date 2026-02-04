@@ -388,26 +388,35 @@ h1, h2, h3, h4, h5{
 }
 
 /*Design*/
+.cards__container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .card__block{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+    column-count: 2;
+    column-gap: 30px;
+    max-width: 1320px;
+    margin-top: 40px auto 0;
 }
 
 .card{
-    display: flex;
-    flex-direction: column;
     background: #181823;
-    overflow: hidden;
+    margin-bottom: 30px;
+    break-inside: avoid;
+    display: block;
+    margin-top: 160px;
 }
 
 .cards__image{
     width: 100%;
-    height: auto;
+    height: 620px;
     object-fit: cover;
     display: block;
 }
+
+
 
 .card__subtitle{
     margin-top: 120px;
@@ -427,8 +436,15 @@ h1, h2, h3, h4, h5{
 .card__btn{
     background-color: #000;
     color: #fff;
-    border: 2px solid #5221E6;
+    border: 2px solid #5221E6; 
     padding: 24px 32px;
     font-weight: 700;
     font-size: 18px;
+}
+
+.card__text--subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    color: #8491A0;
+    margin-top: 13px;
 }
