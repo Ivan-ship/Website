@@ -500,3 +500,40 @@ h1, h2, h3, h4, h5{
     text-decoration: underline;
     text-decoration-color: #8491A0;
 }
+
+/*Секция с картинкой*/
+.site__conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.site__image{
+    display: block;
+    margin: 182px 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+.site__text{
+    margin-top: 120px;
+    margin-left: 182px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.site__subtitle{
+    margin-top: 24px;
+    margin-left: 182px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8491A0;
+}
+
+.site__link{
+    margin-top: 40px;
+    margin-left: 182px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #8491A0;
+}
