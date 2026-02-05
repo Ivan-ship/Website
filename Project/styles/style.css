@@ -267,13 +267,6 @@ h1, h2, h3, h4, h5{
     object-fit: cover;
 }
 
-.philosophy__image{
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 .philosophy__title{
     margin-top: 120px;
     margin-left: 72px;
@@ -447,4 +440,63 @@ h1, h2, h3, h4, h5{
     font-size: 18px;
     color: #8491A0;
     margin-top: 13px;
+}
+
+/*Travel*/
+.travel{
+    background-color: #FBE4FF;
+    color: #000;
+    overflow: hidden;
+}
+
+.travel__inner{
+    display: flex;
+    align-items: center;
+}
+
+.travel__container{
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+}
+
+.travel__image--wrapper{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.travel__content{
+    max-width: 600px;
+}
+
+.travel__image{
+    width: 100%;
+    max-width: 720px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.travel__title{
+    margin-top: 120px;
+    margin-left: 72px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.travel__text{
+    margin-top: 24px;
+    margin-left: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5B6876;
+}
+
+.travel__link{
+    margin-top: 134px;
+    margin-left: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #8491A0;
 }
