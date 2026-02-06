@@ -609,3 +609,80 @@ h1, h2, h3, h4, h5{
     font-size: 18px;
     color: #5B6876;
 }
+
+/*Photo section*/
+.photo__title{
+    margin-top: 120px;
+    margin-left: 72px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.photo__subtitle{
+    margin-top: 24px;
+    margin-left: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8491A0;
+}
+
+.photo__buttom{
+    margin-top: 64px;
+    margin-left: 72px;
+    display: flex;
+    gap: 24px;
+}
+
+.photo__buttom--italy{
+    border: 2px solid #5221E6;
+    padding: 51px 88px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #5221E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo__buttom--australia{
+    border: 2px solid #5221E6;
+    padding: 51px 136px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__buttom--india{
+    border: 2px solid #5221E6;
+    padding: 92px 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__buttom--brazil{
+    border: 2px solid #5221E6;
+    padding: 102px 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__image{
+    margin-top: 40px;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
