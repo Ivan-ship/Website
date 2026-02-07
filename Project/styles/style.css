@@ -771,3 +771,55 @@ h1, h2, h3, h4, h5{
     transform: translateY(-2px);
     box-shadow: 0 12px 30px rgba(82, 33, 230, 0.35);
 }
+
+/*Footer*/
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    height: 422px;
+    margin-top: 120px;
+    background: #181823;
+}
+
+.footer__brand{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title{
+    margin-top: 80px;
+    margin-left: 72px;
+    font-weight: 700;
+    font-weight: 24px;
+    margin-bottom: 32px;
+}
+
+.footer__sociasls{
+    display: flex;
+    gap: 16px;
+    margin-left: 72px;
+}
+
+.footer__subtitle{
+    margin-top: 142px;
+    margin-left: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8491A0;
+}
+
+.footer__nav{
+    display: flex;
+    gap: 150px;
+    margin-top: 80px;
+    margin-right: 182px;
+}
+
+.footer__list,
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    font-weight: 400;
+    font-size: 16px;
+}
